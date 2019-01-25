@@ -18,5 +18,5 @@ Usage:
 5. (optional) Once you've finished your work, you can use GWResumeThread 
     to restore it to its original state.
     
-Note: If you use the included injector, the thread you provide will be used for executing
-your payload, so calling GWResumeThread under such circumstances will be ineffective.
+Note: If you use the included injector with the INJECTOR_AUTO_RUN flag, the thread you provide will
+be used for executing your payload, so calling GWResumeThread under such circumstances will be ineffective.

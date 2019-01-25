@@ -10,7 +10,7 @@ Usage:
 2. Initialize it with InitGhostWriter
 
 3. If all went well, you can now get a thread from any process
-    in the system (create one if you will) and call PrepareThread on it
+    in the system (create one in the process for simplicity) and call PrepareThread on it
     
 4. If GWPrepareThread succeeds, you can now use GWriteMemory and GWCall to do your thing
 4.1 (optional) use the reflective injector with the prepared thread.
